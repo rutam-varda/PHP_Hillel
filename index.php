@@ -6,10 +6,6 @@ $arr = [1, 2, 3, 7, 31, 4, 1, 8, 6];
 var_dump(count($arr));
 echo'<br>';
 
-// переместить первые 4 элемента массива в конец массива
-array_push($arr, $arr[0], $arr[1], $arr[2], $arr[3]);
-array_splice($arr, 0, 4);
-print_r($arr);
 echo'<br>';
 
 // получить сумму 4,5,6 элемента
